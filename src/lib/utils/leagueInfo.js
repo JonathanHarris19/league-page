@@ -9,6 +9,17 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 export const homepageText = `
   <p>Welcome to the D.E.E.Z.N.U.T Football League.</p>
   <p>A date will be decided soon for the Annual GM Rules Meeting.</p>
+  <p>Draft order:</p>
+  <p>1) Knights of Ren</p>
+  <p>2) Nix or Nuthin</p>
+  <p>3) T. Lawmen</p>
+  <p>4) Cops & Rodgers</p>
+  <p>5) 20$ for anyone #firesale</p>
+  <p>6) Kelowna Caribou</p>
+  <p>7) 2-5 TO TOP 4</p>
+  <p>8) Tokyo Eva's</p>
+  <p>9) The Moncton Macs</p>
+  <p>10) The Firetrucks</p>
 `;
 
 /*   STEP 3   */
