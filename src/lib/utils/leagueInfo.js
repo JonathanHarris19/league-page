@@ -12,7 +12,7 @@ export const homepageText = `
   <p>Starting Draft order:</p>
   <p>R1: Matt  Aaron  Keeys  John F  Chris  Barbs  Jonathan H  Pierce  Maclean  Spenny</p>
   <p>R2: Matt  Aaron  Keeys  Jonathan H  Chris  Barbs  John F  Pierce  Maclean  Spenny</p>
-  <p>R3: Pierce  Maclean  Pierce  Jonathan H  Barbs  Chris  John F  Keeys  Aaron  Matt</p>
+  <p>R3: Spenny  Maclean  Pierce  Jonathan H  Barbs  Chris  John F  Keeys  Aaron  Matt</p>
 `;
 
 /*   STEP 3   */
