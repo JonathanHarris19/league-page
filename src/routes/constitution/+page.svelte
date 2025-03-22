@@ -209,7 +209,7 @@
     
     <h4 bind:this={oneTwoFour}>1.2.4 Trade Restrictions</h4>
     <div class="subBlock">
-        <p>You will not be able to trade draft picks that are more than 1 draft away. For example, during the 2021 season you cannot trade any picks in or after the 2023 draft.</p>
+        <p>You will not be able to trade draft picks that are more than 1 draft away. For example, during the 2025 season you cannot trade any picks in or after the 2027 draft.</p>
     </div>
     
     <h4 bind:this={oneTwoFive}>1.2.5 Veto/Trade Process</h4>
