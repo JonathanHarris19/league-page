@@ -10,9 +10,9 @@ export const homepageText = `
   <p>Welcome to the D.E.E.Z.N.U.T Football League.</p>
   <p>A date will be decided soon for the Annual GM Rules Meeting.</p>
   <p>Starting Draft order:</p>
-  <p>R1: Matt - Aaron - Keeys - John F - Chris - Barbs - Jonthan H - Pierce - Maclean - Spenny</p>
-  <p>R2: Matt - Aaron - Keeys - Jonathan H - Chris - Barbs - John F - Pierce - Maclean - Spenny</p>
-  <p>R3: Pierce - Maclean - Pierce - Jonathan H - Barbs - Chris - John F - Keeys - Aaron - Matt</p>
+  <p>R1: Matt  Aaron  Keeys  John F  Chris  Barbs  Jonathan H  Pierce  Maclean  Spenny</p>
+  <p>R2: Matt  Aaron  Keeys  Jonathan H  Chris  Barbs  John F  Pierce  Maclean  Spenny</p>
+  <p>R3: Pierce  Maclean  Pierce  Jonathan H  Barbs  Chris  John F  Keeys  Aaron  Matt</p>
 `;
 
 /*   STEP 3   */
