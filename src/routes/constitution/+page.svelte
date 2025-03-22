@@ -105,7 +105,6 @@
             <h5 class="noUnderscore clickable" onclick={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(oneTwo)}>1.2 Trading</h4>
             <h5 class="noUnderscore clickable" onclick={() => goToSection(oneTwoOne)}>1.2.1 Trade Collusion</h5>
-            <h5 class="noUnderscore clickable" onclick={() => goToSection(oneTwoTwo)}>1.2.2 Lending Players Prohibition</h5>
             <h5 class="noUnderscore clickable" onclick={() => goToSection(oneTwoThree)}>1.2.3 Trade Deadline</h5>
             <h5 class="noUnderscore clickable" onclick={() => goToSection(oneTwoFour)}>1.2.4 Trade Restrictions</h5>
             <h5 class="noUnderscore clickable" onclick={() => goToSection(oneTwoFive)}>1.2.5 Veto/Trade Process</h5>
@@ -114,8 +113,7 @@
     <h3 class="noUnderscore clickable" onclick={() => goToSection(two)}>Section 2: Drafting</h3>
     
         <h4 class="noUnderscore clickable" onclick={() => goToSection(twoOne)}>2.1 Draft Order</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoTwo)}>2.2 Rookie Drafts</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoThree)}>2.3 Draft Day Trades</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoThree)}>2.2 Draft Day Trades</h4>
     
     <h3 class="noUnderscore clickable" onclick={() => goToSection(three)}>Section 3: Scoring System</h3>
     
@@ -134,7 +132,6 @@
     
         <h4 class="noUnderscore clickable" onclick={() => goToSection(sixOne)}>6.1 Removing Managers</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(sixTwo)}>6.2 Replacing Managers</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixThree)}>6.3 Replacement Incentive</h4>
 
     <h3 class="noUnderscore clickable" onclick={() => goToSection(seven)}>Section 7: League Finances</h3>
     
@@ -154,32 +151,33 @@
     <p class="underscore">Starters</p>
     <ul>
         <li>QB</li>
+        <li>QB</li>
         <li>RB</li>
         <li>RB</li>
         <li>WR</li>
         <li>WR</li>
         <li>TE</li>
         <li>FLEX (RB/WR/TE)</li>
-        <li>FLEX (RB/WR)</li>
-        <li>D/ST</li>
+        <li>FLEX (RB/WR/TE)</li>
+        <li>IDP</li>
+        <li>IDP</li>
         <li>K</li>
     </ul>
     
-    <p>18 Bench (Expanded by 5 between the keague draft and start of regular season)</p>
+    <p>9 Bench</p>
 
-    <p>1 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
+    <p>1 IR Spot (Player must be labeled as IR in the Sleeper App)</p>
     
         <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
         
         <div class="subBlock">
             <table class="positionMaximums">
                 <tbody>
-                <tr><td>QB</td><td class="right">3 active, 5 total</td></tr>
-                <tr><td>RB</td><td class="right">20</td></tr>
-                <tr><td>WR</td><td class="right">20</td></tr>
-                <tr><td>TE</td><td class="right">10</td></tr>
-                <tr><td>D/ST</td><td class="right">3</td></tr>
-                <tr><td>K</td><td class="right">3</td></tr>
+                <tr><td>QB</td><td class="right">4 active, 5 total</td></tr>
+                <tr><td>RB</td><td class="right">10</td></tr>
+                <tr><td>WR</td><td class="right">10</td></tr>
+                <tr><td>TE</td><td class="right">4</td></tr>
+                <tr><td>IDP</td><td class="right">5</td></tr>
                 </tbody>
             </table>
         </div>
@@ -187,75 +185,65 @@
 
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
     
-    <p>Trading of players and draft picks (up to 3 drafts away) are allowed. Trades will process immediately and will be reversed if vetoed or under investigation for collusion. Tradable assets include players, draft picks, and FAAB $.</p>
+    <p>Trading of players and draft picks (up to 1 draft away) are allowed. Trades will process immediately and will be reversed if vetoed. Tradable assets include players and draft picks.</p>
     
     <h4 bind:this={oneTwoOne}>1.2.1 Trade Collusion</h4>
     <div class="subBlock">
-        <p>If any owners are suspected of accepting bribes/offering bribes to enhance their/another owners team via trade, trading any assets other than fantasy players, draft picks, FAAB $, or otherwise found guilty of engaging in any form of collusion*, all parties involved in the trade will be susceptible to punishment. The punishments will go as followed:</p>
+        <p>If any owners are suspected of accepting bribes/offering bribes to enhance their/another owners team via trade, trading any assets other than fantasy players, draft picks, or otherwise found guilty of engaging in any form of collusion*, all parties involved in the trade will be susceptible to punishment. The punishments will go as followed:</p>
         
         <ul>
-            <li>First Offense – Immediate reduction of FAAB budget by 80%</li>
-            <li>Second Offense – Immediate freeze on all transaction types for the next 18 weeks of regular season and playoff fantasy football games, including trades and waiver wire bids</li>
-            <li>Third Offense – A league meeting of all members not involved in any of the improper trades/activity in question will take place to discuss next steps.</li>
+            <li>First Offense – Loss of first round pick in the draft following year</li>
+            <li>Second Offense – Removal from the league</li>
         </ul>
 
         <p>All trades that are found guilty of collusion, will be reversed/denied. If the trade had affected the outcome of previous games, the results of those games will be revised.  </p>
 
         <p>*Collusion includes the organizing of veto votes against an acceptable trade.</p>
 
-        <p>The commissioner will err on the side of letting owners manage their teams the way they see fit. Any collusion will need to be clear. The commissioner reserves the right to step in and at the very least assess the thinking of any team involved in a heavily lop-sided trade. </p>
-    </div>
-
-    <h4 bind:this={oneTwoTwo}>1.2.2 Lending Players Prohibition</h4>
-    <div class="subBlock">
-        <p>Any player traded from a team may not be re-acquired via trade within 6 weeks of the original trade. Any teams involved in this behavior will be subject to the aforementioned collusion punishments.</p>
+        <p>Managers can form their team as they see fit, however every trade will go through a voting process where you need half the votes to ok the trade for the trade to pass. </p>
     </div>
     
     <h4 bind:this={oneTwoThree}>1.2.3 Trade Deadline</h4>
     <div class="subBlock">
-        <p>The trade deadline will be set for the Saturday of the week 11 games of the NFL season.</p>
+        <p>The trade deadline will be set for following the week 11 games of the NFL season.</p>
     </div>
     
     <h4 bind:this={oneTwoFour}>1.2.4 Trade Restrictions</h4>
     <div class="subBlock">
-        <p>You will not be able to trade draft picks that are more than 3 drafts away. For example, during the 2021 season you cannot trade any picks in or after the 2025 draft. You may only trade FAAB $ from the current season.</p>
+        <p>You will not be able to trade draft picks that are more than 1 draft away. For example, during the 2021 season you cannot trade any picks in or after the 2023 draft.</p>
     </div>
     
     <h4 bind:this={oneTwoFive}>1.2.5 Veto/Trade Process</h4>
     <div class="subBlock">
-        <p>A total of 7 veto votes are required to veto a trade. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value (i.e. CMC for a backup kicker). Not liking a trade does not warrant a veto.</p>
+        <p>A total of 6 veto votes are required to veto a trade. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value (i.e. Hurts for Pickett). Not liking a trade does not warrant a veto.</p>
     </div>
     
     
     
     <h3 bind:this={oneThree}>1.3 Waiver Wire</h3>
     
-    <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Thursdays and Sundays at 9AM EST.</p>
+    <p>Waiver wire system. Every wednesday morning at 5am the waiver system will take place, where waiver order is the reverse order of the current standings. Tiebreaker goes to the lowest points for. Waiver pickups throughout the week will affect your order.</p>
 
-    <p>FAAB budgets will reset each season in January.</p>
+    <p>Waiver order resets each week.</p>
     
     
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
     
     <h3 bind:this={twoOne}>2.1 Draft Order</h3>
-    <p>The draft order each year will be a linear draft in reverse order of the previous year’s regular season standings.</p>
-
-    <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
-    <p>Rokkie drafts will consist of 3 round of drafting, with 5 minutes alotted for each pick. To make room for the incoming players, benches will be expanded by (5) spots. These spots will be removed in mid-August, at which point you will need to have cut the necessary players.</p>
-    <p>Any spots not filled during the draft, can be filled immediately afterwards from the waiver wire.</p>
+    <p>The draft order each year will be a linear draft in reverse order of the previous year’s regular season standings for the first and second rounds. Inbetween the first and second round there will be the round only for those who decided to only keep 4 keepers. Following the second round the draft turns to a snake draft and continues from pick spot 10-1 in round three (rerverse order).</p>
     
-    <h3 bind:this={twoThree}>2.3 Draft Day Trades</h3>
+    <h3 bind:this={twoThree}>2.2 Draft Day Trades</h3>
     <p>If a trade is being made during the draft, one or both parties can alert the commissioner to pause the draft to allow for extra time to negotiate the trade.</p>
     
     <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
 
     <h3 bind:this={threeOne}>3.1 Scoring System</h3>
-    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical .5PPR Scoring). The scoring system will never change without a majority league vote.</p>
+    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical 2QB PPR Scoring). The scoring system will never change without a majority league vote which must take place at the season opening GM Meeting.</p>
     
     <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
     
     <h3 bind:this={fourOne}>4.1 Playoffs</h3>
-    <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 15. Each team that wins their division and the 4 wild card teams that finish with the best records, will receive a playoff berth. The 2 teams that win their division will receive a bye week in the first round of the playoffs. Each playoff matchup will only last one week and the winner will advance. Week 18 will not be used.</p>
+    <p>At the end of the season, six teams will make the playoffs. The first round of playoffs will commence in week 15. The two best records will get a bye, with the rest of the top six also receiving a playoff berth. Each playoff matchup will only last one week and the winner will advance. Week 18 will not be used.</p>
     
     <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
     <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
@@ -263,7 +251,6 @@
     <ol>
         <li>Points For</li>
         <li>Head 2 Head Record</li>
-        <li>Division Record</li>
         <li>Total Points Against</li>
         <li>Coin Flip</li>
         <li>Duel to the death</li>
@@ -277,29 +264,34 @@
     <h2 class="sectionHeading" bind:this={six}>Section 6 Replacing Managers</h2>
     
     <h3 bind:this={sixOne}>6.1 Removing Managers</h3>
-    <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire, is strongly encouraged but generally grounds for removal.</p>
+    <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire, is strongly encouraged but generally not grounds for removal.</p>
     
     <h3 bind:this={sixTwo}>6.2 Replacing Managers</h3>
-    <p>When a manager needs to be replaced, the commisiooners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a dynasty commitment and will be very active within the league.</p>
-    
-    <h3 bind:this={sixThree}>6.3 Replacement Incentive</h3>
-    <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager is offered a 50% reductioon on their first year buy-in.</p>
+    <p>When a manager needs to be replaced, the commisioner will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a keeper commitment and will be very active within the league.</p>
 
     <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
     
     <h3 bind:this={sevenOne}>7.1 League Dues</h3>
-    <p>League dues are set at {dues}$. Dues are collected through <a href="https://www.leaguesafe.com/league/3949641">LeagueSafe</a> and collection will be sent out no later than the first of August. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a 10% penalty will be addd to their payment and will go towards the payouts at the end of the year.</p>
+    <p>League dues are set at ($25 or $30 to be decided at GM Meeting) and collection will be sent out no later than the first of February. In the event that a manager fails to pay before the deadline, and is a bitch about paying when asked, a 20% penalty will be added to their payment and will go towards the payouts at the end of the year.</p>
     
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
     <p>League payout is structured as follows:</p>
     <ul>
-        <li>1st place: {dues * 8}$</li>
-        <li>2nd place: {dues * 3}$</li>
-        <li>3rd place: {dues}$</li>
+        <li>1st place: $250-$300 depending on the vote</li>
+        <li>2nd place: Jersey of a keeper on your roster</li>
+        <li>3rd place: Pick the keeper on second's team for the jersey</li>
+        <li>3rd place: Congrats, you can chill</li>
+        <li>4th place: pay 2.5% of jersey cost</li>
+        <li>5th place: pay 5% of jersey cost</li>
+        <li>6th place: pay 12.5% of jersey cost</li>
+        <li>7th place: Pay 15% of jersey cost</li>
+        <li>8th place: Pay 17.5% of jersey cost</li>
+        <li>9th place: Pay 22.5% of jersey cost</li>
+        <li>10th place: Pay 25% of jersey cost</li>
     </ul>
-    <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout. Similarly, if new managers come into the league and the payout is smaller, the difference will come out of the winner's prize.</p>
+    <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout.</p>
     
     <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
-    <p>A ⅔ majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
+    <p>A 3/4 majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is allowed.</p>
 
 </div>
