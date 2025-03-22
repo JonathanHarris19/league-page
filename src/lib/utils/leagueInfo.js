@@ -27,7 +27,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 export const managers = [
     {
       "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Tokyo Eva's",
+      "name": "Pierce Burch",
       "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Ottawa", // (optional)
       "bio": "It's the 49ers year.",
@@ -48,7 +48,7 @@ export const managers = [
     },
     {
       "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "2-5 TO TOP 4",
+      "name": "Jonathan Harris",
       "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Ottawa", // (optional)
       "bio": "Another year, another loss.",
@@ -69,7 +69,7 @@ export const managers = [
     },
     {
       "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "T. Lawmen",
+      "name": "David Keyes",
       "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "New Brunswick", // (optional)
       "bio": "Arrrrrrr.",
@@ -90,7 +90,7 @@ export const managers = [
     },
       {
       "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "20$ for anyone #firesale",
+      "name": "Nick Barbour",
       "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "New Brunswick", // (optional)
       "bio": "slow but likable.",
@@ -111,7 +111,7 @@ export const managers = [
     },
     {
       "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Nix or Nuthin",
+      "name": "Aaron Fisher",
       "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Ottawa", // (optional)
       "bio": "Leafs fan.",
@@ -132,7 +132,7 @@ export const managers = [
     },
     {
       "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "The Moncton Macs",
+      "name": "Maclean Murphy",
       "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Ottawa", // (optional)
       "bio": "I can jump through that table",
@@ -153,7 +153,7 @@ export const managers = [
     },
       {
       "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Cops & Rodgers",
+      "name": "Jonathan Falcone",
       "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Ottawa", // (optional)
       "bio": "Nick Chubb is my idol.",
@@ -174,7 +174,7 @@ export const managers = [
     },
       {
       "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Knights of Ren",
+      "name": "Matt Gagné",
       "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Ottawa", // (optional)
       "bio": "Will pay to suck off Brady.",
@@ -195,7 +195,7 @@ export const managers = [
     },
     {
       "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Kelowna Caribou",
+      "name": "Chris Thorlakson",
       "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Ottawa", // (optional)
       "bio": "Spin the wheel, determine your fate.",
