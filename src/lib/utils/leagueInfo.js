@@ -216,7 +216,7 @@ export const managers = [
     },
     {
       "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "The Firetrucks",
+      "name": "Spencer Sutherland",
       "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Ottawa", // (optional)
       "bio": "Burrow is my spirit animal.",
