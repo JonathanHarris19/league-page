@@ -9,17 +9,10 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 export const homepageText = `
   <p>Welcome to the D.E.E.Z.N.U.T Football League.</p>
   <p>A date will be decided soon for the Annual GM Rules Meeting.</p>
-  <p>Draft order:</p>
-  <p>1) Knights of Ren</p>
-  <p>2) Nix or Nuthin</p>
-  <p>3) T. Lawmen</p>
-  <p>4) Cops & Rodgers</p>
-  <p>5) 20$ for anyone #firesale</p>
-  <p>6) Kelowna Caribou</p>
-  <p>7) 2-5 TO TOP 4</p>
-  <p>8) Tokyo Eva's</p>
-  <p>9) The Moncton Macs</p>
-  <p>10) The Firetrucks</p>
+  <p>Starting Draft order:</p>
+  <p>R1: Knights of Ren - Nix or Nuthin - T. Lawmen - Cops & Rodgers - Kelowna Caribou - 20$ for anyone #firesale - 2-5 TO TOP 4 - Tokyo Eva's - The Moncton Macs - The Firetrucks</p>
+  <p>R2: Knights of Ren - Nix or Nuthin - T. Lawmen - 2-5 TO TOP 4 - Kelowna Caribou - 20$ for anyone #firesale - Cops & Rodgers - Tokyo Eva's - The Moncton Macs - The Firetrucks</p>
+  <p>R3: The Firetrucks - The Moncton Macs -Tokyo Eva's - 2-5 TO TOP 4 - 20$ for anyone #firesale - Kelowna Caribou - Cops & Rodgers - T. Lawmen - Nix or Nuthin - Knights of Ren</p>
 `;
 
 /*   STEP 3   */
