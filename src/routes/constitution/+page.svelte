@@ -161,7 +161,6 @@
         <li>FLEX (RB/WR/TE)</li>
         <li>IDP</li>
         <li>IDP</li>
-        <li>K</li>
     </ul>
     
     <p>9 Bench</p>
