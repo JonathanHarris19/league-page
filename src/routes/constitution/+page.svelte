@@ -279,14 +279,13 @@
         <li>1st place: $250-$300 depending on the vote</li>
         <li>2nd place: Jersey of a keeper on your roster</li>
         <li>3rd place: Pick the keeper on second's team for the jersey</li>
-        <li>3rd place: Congrats, you can chill</li>
-        <li>4th place: pay 2.5% of jersey cost</li>
+        <li>4th place: Congrats, you can chill</li>
         <li>5th place: pay 5% of jersey cost</li>
-        <li>6th place: pay 12.5% of jersey cost</li>
-        <li>7th place: Pay 15% of jersey cost</li>
-        <li>8th place: Pay 17.5% of jersey cost</li>
+        <li>6th place: pay 10% of jersey cost</li>
+        <li>7th place: pay 15% of jersey cost</li>
+        <li>8th place: Pay 20% of jersey cost</li>
         <li>9th place: Pay 22.5% of jersey cost</li>
-        <li>10th place: Pay 25% of jersey cost</li>
+        <li>10th place: Pay 27.5% of jersey cost</li>
     </ul>
     <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout.</p>
     
