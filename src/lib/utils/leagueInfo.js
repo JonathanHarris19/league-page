@@ -9,10 +9,10 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 export const homepageText = `
   <p>Welcome to the D.E.E.Z.N.U.T Football League.</p>
   <p>A date will be decided soon for the Annual GM Rules Meeting.</p>
-  <p>Starting Draft order:</p>
-  <p>R1: Matt  Aaron  Keeys  John F  Chris  Barbs  Jonathan H  Pierce  Maclean  Spenny</p>
-  <p>R2: Matt  Aaron  Keeys  Jonathan H  Chris  Barbs  John F  Pierce  Maclean  Spenny</p>
-  <p>R3: Spenny  Maclean  Pierce  Jonathan H  Barbs  Chris  John F  Keeys  Aaron  Matt</p>
+  <p>OFFICIAL DRAFT DATE: Saturday, August 30th</p>
+  <p>Costco beers and pizza will be picked up for this in person draft.</p>
+  <p>Draft order:</p>
+  <p>R1: Matt  Aaron  Keeys  John-F  Chris  Barbs  John-H  Pierce  Maclean  Spenny</p>
 `;
 
 /*   STEP 3   */
