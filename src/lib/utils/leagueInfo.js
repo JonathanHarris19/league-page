@@ -8,8 +8,8 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 /*   STEP 2   */
 export const homepageText = `
   <p>Welcome to the D.E.E.Z.N.U.T Football League.</p>
-  <p>A date will be decided soon for the Annual GM Rules Meeting.</p>
-  <p>OFFICIAL DRAFT DATE: Saturday, August 30th</p>
+  <p>Annual GM Rules Meeting Date: Wednesday, August 6th</p>
+  <p>Official Draft Date: Saturday, August 30th</p>
   <p>Costco beers and pizza will be picked up for this in person draft.</p>
   <p>Draft order:</p>
   <p>R1: Matt  Aaron  Keeys  John-F  Chris  Barbs  John-H  Pierce  Maclean  Spenny</p>
