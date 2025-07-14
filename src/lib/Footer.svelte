@@ -120,7 +120,5 @@
 			{/each}
 		</ul>
 	</div>
-	<!-- PLEASE DO NOT REMOVE THE COPYRIGHT -->
-	<span class="copyright">&copy; 2021 - {year} <a href="https://github.com/nmelhado">League Page</a></span>
 	<br />
 </footer>
